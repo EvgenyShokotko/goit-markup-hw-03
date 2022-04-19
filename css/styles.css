@@ -1,0 +1,208 @@
+/* Main colors */
+:root {
+    --primary-text-colour: #212121;
+    --title-text-colour: #757575;
+    --accent-colour: #2196F3;
+    --page-maintitle-color: #FFFFFF;
+    --hero-footer-backcolor: #2F303A;
+    --change-color-button:#188ce8;
+
+}
+
+/* Normalaze styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* Main styles*/
+body {
+    background-color: var(--page-maintitle-color);
+    color: var(--primary-text-colour);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.list {
+    list-style: none;
+}
+
+/* Navigation, logo - top page */
+.header-logo {
+    text-decoration: none;
+    color: var(--primary-text-colour);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo {
+    color: var(--accent-colour);
+}
+.header-logo:hover,
+.header-logo:focus {
+    color: var(--accent-colour);
+}
+
+/* Main navigation */
+.item {
+    color: var(--primary-text-colour);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.item:hover,
+.item:focus,
+.header-address .item:hover,
+.header-address .item:focus {
+    color: var(--accent-colour);
+}
+/* Change colour when active*/
+.item.current {
+    color: var(--accent-colour);
+}
+/* Address */
+.header-address .item {
+    color: var(--title-text-colour);
+}
+
+/* Main page */
+/* Section hero */
+.hero-title {
+    color: var(--page-maintitle-color);
+    background-color: var(--hero-footer-backcolor);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-button {
+    background-color: var(--accent-colour);
+    color: var(--page-maintitle-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--change-color-button);
+    background-color: var(--page-maintitle-color);
+}
+/* Section our character */
+.items-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.items-description {
+    color: var(--title-text-colour);
+    line-height: 1.71;
+}
+
+/* Our team */
+.section-team {
+    background-color: #F5F4FA;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.section-employees {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.section-proffesion {
+    color: var(--title-text-colour);
+    font-size: 16px;
+    line-height: 1.19;
+}
+/* Page 2 */
+.nav-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.nav-buttons.main {
+    background-color: var(--accent-colour);
+    color: var(--page-maintitle-color);
+}
+.nav-buttons:hover,
+.nav-buttons:focus {
+    color: var(--page-maintitle-color);
+    background-color: var(--accent-colour);
+}
+
+/* Our works */
+.section-service {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.section-description {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* Footer */
+/* Logo */
+.footer {
+    background-color: var(--hero-footer-backcolor);
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--page-maintitle-color);
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.logo-bottom {
+    color: var(--accent-colour);
+}
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--accent-colour);
+}
+/* Address */
+.address-map {
+    color: var(--page-maintitle-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+    
+.address-contact {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+    
+.address-map:hover,
+.address-map:focus,
+.address-contact:hover,
+.address-contact:focus
+{
+    color: var(--accent-colour);
+}

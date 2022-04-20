@@ -99,6 +99,7 @@ body {
     text-align: center;
     background-color: var(--hero-footer-backcolor);
     height: 600px;
+    margin-top: 17px;
 }
 .hero-title {
     color: var(--page-maintitle-color);
@@ -126,8 +127,8 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--change-color-button);
-    background-color: var(--page-maintitle-color);
+    color: var(--page-maintitle-color);
+    background-color: var(--change-color-button);
 }
 /* Section our character */
 .section.items {
@@ -153,6 +154,9 @@ body {
 
 
 /* Our team */
+.list.team {
+    background-color: var(--page-maintitle-color);
+}
 .section-team {
     background-color: #F5F4FA;
     margin-top: 94px;
@@ -197,6 +201,9 @@ body {
 }
 
 /* Our works */
+.section.serv {
+    margin-top: 94px;
+}
 .section-service {
     font-weight: 700;
     font-size: 18px;
@@ -206,6 +213,7 @@ body {
 .section-description {
     font-size: 16px;
     line-height: 1.88;
+    margin: 0;
 }
 
 /* Footer */

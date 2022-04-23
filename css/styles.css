@@ -140,7 +140,7 @@ display: block;
 .hero-title {
     display: inline-block;
     margin-top: 200px;
-    padding-bottom: 45px; 
+    margin-bottom: 45px; 
     
     color: var(--page-maintitle-color);
     font-weight: 900;

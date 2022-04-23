@@ -142,6 +142,7 @@ display: block;
     margin-top: 200px;
     margin-bottom: 45px; 
     
+    /* outline: solid 3px red; */
     color: var(--page-maintitle-color);
     font-weight: 900;
     font-size: 44px;
@@ -241,8 +242,13 @@ display: block;
     /* Основные стили */
 .section-team {
     background-color: #F5F4FA;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+/* .conteiner.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} */
 .list.team {
     background-color: var(--page-maintitle-color);
 }
@@ -345,6 +351,9 @@ display: block;
 .footer {
     background-color: var(--hero-footer-backcolor);
     padding-top: 60px;
+    padding-bottom: 60px;
+/* 
+    outline: solid 3px red; */
     
 }
 .footer-logo {
@@ -354,6 +363,8 @@ display: block;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+/* 
+    outline: solid 3px red; */
 }
 .logo-bottom {
     color: var(--accent-colour);
@@ -363,16 +374,17 @@ display: block;
     color: var(--accent-colour);
 }
 /* Адрес */
-.adr {
-    padding-top: 20px;
-
-}
 .link-map {
+    display: block;
     color: var(--page-maintitle-color);
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+
+    margin-top: 20px;
+/* 
+    outline: solid 3px red; */
    }
 .link-contact {
     display: block;
@@ -382,6 +394,8 @@ display: block;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+/* 
+    outline: solid 3px red; */
 }
 .link-map:hover,
 .link-map:focus,

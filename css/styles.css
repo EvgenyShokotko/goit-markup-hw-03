@@ -132,10 +132,9 @@ display: block;
     width: 696px;
 }
 
-
 .hero {
 
-    margin-bottom: 94px;
+    margin-bottom: 294px;
     margin-top: 200px;
 
     text-align: center;
@@ -355,7 +354,7 @@ display: block;
     line-height: 1.19;
     text-decoration: none;
     /* padding-top: 60px; */
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 .logo-bottom {
     color: var(--accent-colour);

@@ -144,7 +144,7 @@ display: block;
 }
 .hero {
     
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
     text-align: center;
     background-color: var(--hero-footer-backcolor);
 }
@@ -191,6 +191,7 @@ display: block;
    width: 270px; 
 }
 .section.items {
+    padding-top: 94px;
     padding-bottom: 94px;
 }
     /* Отступы, стили */

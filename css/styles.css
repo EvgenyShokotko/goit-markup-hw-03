@@ -191,7 +191,7 @@ display: block;
    width: 270px; 
 }
 .section.items {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
     /* Отступы, стили */
 
@@ -222,7 +222,7 @@ display: block;
 }
 
 .section.work {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 /* Наша команда */

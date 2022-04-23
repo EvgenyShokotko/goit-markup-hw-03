@@ -53,6 +53,10 @@ body {
     max-width: 100%;
     height: auto;
 }
+/* .line {
+     border-top: 1px solid rgb(141, 15, 15);
+    margin-top: 32px;
+} */
 
 /*Навигация, логотип верх страницы */
     /* Выстраивание верха в ряд */
@@ -85,8 +89,8 @@ display: block;
     /* Основные стили шапки */
 .header-logo {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 
     text-decoration: none;
     color: var(--primary-text-colour);

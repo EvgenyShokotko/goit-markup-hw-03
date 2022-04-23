@@ -363,8 +363,8 @@ display: block;
     color: var(--accent-colour);
 }
 /* Адрес */
-.address {
-    margin-top: 20px;
+.adr {
+    padding-top: 20px;
 
 }
 .link-map {

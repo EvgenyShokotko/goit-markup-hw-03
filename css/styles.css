@@ -130,16 +130,19 @@ display: block;
 /* Секция герой */
 .conteiner.hero {
     width: 696px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero {
+    
     margin-bottom: 94px;
     text-align: center;
     background-color: var(--hero-footer-backcolor);
 }
 .hero-title {
     display: inline-block;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-bottom: 45px; 
     
     /* outline: solid 3px red; */
@@ -150,8 +153,8 @@ display: block;
     text-transform: uppercase;
 }
 .hero-button {
-    display: inline-block;
-    margin-bottom: 200px;
+    /* display: inline-block;
+    margin: 0; */
     
     background-color: var(--accent-colour);
     color: var(--page-maintitle-color);

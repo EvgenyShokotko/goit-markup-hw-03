@@ -42,14 +42,14 @@ body {
     padding-right: 15px;
 }
 
-.line {
+/* .header {
     width: 1170px;
     border-bottom: 1px solid rgba(196, 196, 196, 1);
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 .photo {
     display: block;
     max-width: 100%;
@@ -60,15 +60,17 @@ body {
     /* Выстраивание верха в ряд */
 .list.nav {
     display: flex;
-    margin-left: 94px;
-}
+    }
 .link {
-padding-top: 14px;
-padding-bottom: 14px;
+padding-top: 32px;
+padding-bottom: 32px;
 display: block;
 }
 .li-nav+.li-nav {
     margin-left: 50px;
+}
+.header-nav {
+    margin-left: 94px;
 }
 .header-address {
     display: flex;
@@ -80,12 +82,13 @@ display: block;
 .conteiner.main-nav {
     display: flex;
     align-items: center;
+    border: none;
 }
     /* Основные стили шапки */
 .header-logo {
     display: block;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     text-decoration: none;
     color: var(--primary-text-colour);
@@ -127,11 +130,15 @@ display: block;
 
 /* Главная страница */
 /* Секция герой */
+.conteiner.hero {
+    width: 696px;
+}
+
 
 .hero {
-    margin-top: 17px;
-    padding-bottom: 200px;
-    padding-top: 200px;
+
+    margin-bottom: 200px;
+    margin-top: 200px;
 
     text-align: center;
     background-color: var(--hero-footer-backcolor);
@@ -159,7 +166,7 @@ display: block;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    padding: 20px 32px;
+    padding: 10px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {

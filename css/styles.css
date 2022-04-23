@@ -344,6 +344,7 @@ display: block;
 /* Логотип */
 .footer {
     background-color: var(--hero-footer-backcolor);
+    padding-top: 60px;
     
 }
 .footer-logo {
@@ -353,8 +354,6 @@ display: block;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    padding-top: 60px;
-    /* margin-top: 60px; */
 }
 .logo-bottom {
     color: var(--accent-colour);

@@ -144,7 +144,7 @@ display: block;
     display: inline-block;
     margin-bottom: 45px; 
     
-    /* outline: solid 3px red; */
+ 
     color: var(--page-maintitle-color);
     font-weight: 900;
     font-size: 44px;
@@ -152,8 +152,6 @@ display: block;
     text-transform: uppercase;
 }
 .hero-button {
-    /* display: inline-block;
-    margin: 0; */
     
     background-color: var(--accent-colour);
     color: var(--page-maintitle-color);

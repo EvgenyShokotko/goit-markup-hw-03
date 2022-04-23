@@ -133,14 +133,13 @@ display: block;
 }
 
 .hero {
-
-    margin-bottom: 294px;
-    margin-top: 200px;
-
+    margin-bottom: 94px;
     text-align: center;
     background-color: var(--hero-footer-backcolor);
 }
 .hero-title {
+    display: inline-block;
+    margin-top: 200px;
     padding-bottom: 45px; 
     
     color: var(--page-maintitle-color);
@@ -151,6 +150,7 @@ display: block;
 }
 .hero-button {
     display: inline-block;
+    margin-bottom: 200px;
     
     background-color: var(--accent-colour);
     color: var(--page-maintitle-color);
@@ -353,7 +353,7 @@ display: block;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    /* padding-top: 60px; */
+    padding-top: 60px;
     /* margin-top: 60px; */
 }
 .logo-bottom {
